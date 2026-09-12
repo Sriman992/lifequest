@@ -111,16 +111,3 @@ src/components/              UI: room scene, XP bar, task list, shop, etc.
 - [x] **Error handling** — failed requests show a toast and revert local
       state rather than crashing; a dropped connection on load shows a retry
       screen instead of a blank page.
-
-## What you still need to do before submitting
-
-1. **Commit history** — commit as you go (`git commit`) rather than one
-   giant commit, so the repo shows real, incremental work.
-2. **Push to a public GitHub repo.**
-3. **Deploy it live** (steps above) and confirm the live URL actually works
-   in an incognito window before you submit.
-4. **Record the walkthrough video** (90–180 seconds, under 100MB): sign up →
-   add a task → complete it (show the level-up or streak toast) → refresh the
-   page to prove the data persisted from the database, not local state.
-   Host it as an unlisted YouTube link or commit it into the repo (`/docs`),
-   with no login wall.
