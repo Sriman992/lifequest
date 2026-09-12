@@ -1,0 +1,175 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.4.2
+2 info using node@v24.4.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\HP\Downloads\lifequest-main\lifequest-main\.npmrc
+5 silly config load:file:C:\Users\HP\.npmrc
+6 silly config load:file:C:\Users\HP\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\HP\Downloads\lifequest-main\lifequest-main\.npm-cache\_logs\2026-09-12T21_51_37_883Z-
+10 verbose logfile C:\Users\HP\Downloads\lifequest-main\lifequest-main\.npm-cache\_logs\2026-09-12T21_51_37_883Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@alloc/quick-lru': [ '5.3.0' ],
+16 silly audit   '@babel/runtime': [ '7.29.7' ],
+16 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+16 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+16 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+16 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+16 silly audit   '@next/env': [ '14.2.5' ],
+16 silly audit   '@next/swc-darwin-arm64': [ '14.2.5' ],
+16 silly audit   '@next/swc-darwin-x64': [ '14.2.5' ],
+16 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.5' ],
+16 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.5' ],
+16 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.5' ],
+16 silly audit   '@next/swc-linux-x64-musl': [ '14.2.5' ],
+16 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.5' ],
+16 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.5' ],
+16 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.5' ],
+16 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+16 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+16 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+16 silly audit   '@panva/hkdf': [ '1.2.1' ],
+16 silly audit   '@prisma/client': [ '5.22.0' ],
+16 silly audit   '@prisma/debug': [ '5.22.0' ],
+16 silly audit   '@prisma/engines': [ '5.22.0' ],
+16 silly audit   '@prisma/engines-version': [ '5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2' ],
+16 silly audit   '@prisma/fetch-engine': [ '5.22.0' ],
+16 silly audit   '@prisma/get-platform': [ '5.22.0' ],
+16 silly audit   '@swc/counter': [ '0.1.3' ],
+16 silly audit   '@swc/helpers': [ '0.5.5' ],
+16 silly audit   '@types/bcryptjs': [ '2.4.6' ],
+16 silly audit   '@types/node': [ '20.19.43' ],
+16 silly audit   '@types/prop-types': [ '15.7.15' ],
+16 silly audit   '@types/react': [ '18.3.31' ],
+16 silly audit   '@types/react-dom': [ '18.3.7' ],
+16 silly audit   'any-promise': [ '1.3.0' ],
+16 silly audit   anymatch: [ '3.1.3' ],
+16 silly audit   arg: [ '5.0.2' ],
+16 silly audit   autoprefixer: [ '10.6.0' ],
+16 silly audit   'baseline-browser-mapping': [ '2.11.23' ],
+16 silly audit   bcryptjs: [ '2.4.3' ],
+16 silly audit   'binary-extensions': [ '2.3.0' ],
+16 silly audit   braces: [ '3.0.3' ],
+16 silly audit   browserslist: [ '4.28.9' ],
+16 silly audit   busboy: [ '1.6.0' ],
+16 silly audit   'camelcase-css': [ '2.0.1' ],
+16 silly audit   'caniuse-lite': [ '1.0.30001810' ],
+16 silly audit   chokidar: [ '3.6.0' ],
+16 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+16 silly audit   'client-only': [ '0.0.1' ],
+16 silly audit   commander: [ '4.1.1' ],
+16 silly audit   cookie: [ '0.7.2' ],
+16 silly audit   cssesc: [ '3.0.0' ],
+16 silly audit   csstype: [ '3.2.3' ],
+16 silly audit   didyoumean: [ '1.2.2' ],
+16 silly audit   dlv: [ '1.1.3' ],
+16 silly audit   'electron-to-chromium': [ '1.5.427' ],
+16 silly audit   'es-errors': [ '1.3.0' ],
+16 silly audit   escalade: [ '3.2.0' ],
+16 silly audit   'fast-glob': [ '3.3.3' ],
+16 silly audit   fastq: [ '1.20.3' ],
+16 silly audit   'fill-range': [ '7.1.1' ],
+16 silly audit   'fraction.js': [ '5.3.4' ],
+16 silly audit   'framer-motion': [ '11.18.2' ],
+16 silly audit   fsevents: [ '2.3.3' ],
+16 silly audit   'function-bind': [ '1.1.2' ],
+16 silly audit   'graceful-fs': [ '4.2.11' ],
+16 silly audit   hasown: [ '2.0.4' ],
+16 silly audit   'is-binary-path': [ '2.1.0' ],
+16 silly audit   'is-core-module': [ '2.16.2' ],
+16 silly audit   'is-extglob': [ '2.1.1' ],
+16 silly audit   'is-glob': [ '4.0.3' ],
+16 silly audit   'is-number': [ '7.0.0' ],
+16 silly audit   jiti: [ '1.21.7' ],
+16 silly audit   jose: [ '4.15.9' ],
+16 silly audit   'js-tokens': [ '4.0.0' ],
+16 silly audit   lilconfig: [ '3.1.3' ],
+16 silly audit   'lines-and-columns': [ '1.2.4' ],
+16 silly audit   'loose-envify': [ '1.4.0' ],
+16 silly audit   'lru-cache': [ '6.0.0' ],
+16 silly audit   merge2: [ '1.4.1' ],
+16 silly audit   micromatch: [ '4.0.8' ],
+16 silly audit   'motion-dom': [ '11.18.1' ],
+16 silly audit   'motion-utils': [ '11.18.1' ],
+16 silly audit   mz: [ '2.7.0' ],
+16 silly audit   nanoid: [ '3.3.19' ],
+16 silly audit   next: [ '14.2.5' ],
+16 silly audit   'next-auth': [ '4.24.15' ],
+16 silly audit   postcss: [ '8.4.31', '8.5.28' ],
+16 silly audit   'node-releases': [ '2.0.55' ],
+16 silly audit   'normalize-path': [ '3.0.0' ],
+16 silly audit   oauth: [ '0.9.15' ],
+16 silly audit   'object-assign': [ '4.1.1' ],
+16 silly audit   'object-hash': [ '2.2.0', '3.0.0' ],
+16 silly audit   'oidc-token-hash': [ '5.2.0' ],
+16 silly audit   'openid-client': [ '5.7.1' ],
+16 silly audit   'path-parse': [ '1.0.7' ],
+16 silly audit   picocolors: [ '1.1.1' ],
+16 silly audit   picomatch: [ '2.3.2', '4.0.7' ],
+16 silly audit   pirates: [ '4.0.7' ],
+16 silly audit   'postcss-import': [ '15.1.0' ],
+16 silly audit   'postcss-js': [ '4.1.0' ],
+16 silly audit   'postcss-load-config': [ '6.0.1' ],
+16 silly audit   'postcss-nested': [ '6.2.0' ],
+16 silly audit   'postcss-selector-parser': [ '6.1.4' ],
+16 silly audit   'postcss-value-parser': [ '4.2.0' ],
+16 silly audit   preact: [ '10.29.8' ],
+16 silly audit   'preact-render-to-string': [ '5.2.6' ],
+16 silly audit   'pretty-format': [ '3.8.0' ],
+16 silly audit   prisma: [ '5.22.0' ],
+16 silly audit   'queue-microtask': [ '1.2.3' ],
+16 silly audit   react: [ '18.3.1' ],
+16 silly audit   'react-dom': [ '18.3.1' ],
+16 silly audit   'read-cache': [ '1.0.2' ],
+16 silly audit   readdirp: [ '3.6.0' ],
+16 silly audit   resolve: [ '1.22.12' ],
+16 silly audit   reusify: [ '1.1.0' ],
+16 silly audit   'run-parallel': [ '1.2.0' ],
+16 silly audit   scheduler: [ '0.23.2' ],
+16 silly audit   'source-map-js': [ '1.2.1' ],
+16 silly audit   streamsearch: [ '1.1.0' ],
+16 silly audit   'styled-jsx': [ '5.1.1' ],
+16 silly audit   sucrase: [ '3.35.1' ],
+16 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+16 silly audit   tailwindcss: [ '3.4.19' ],
+16 silly audit   thenify: [ '3.3.1' ],
+16 silly audit   'thenify-all': [ '1.6.0' ],
+16 silly audit   tinyglobby: [ '0.2.17' ],
+16 silly audit   fdir: [ '6.5.0' ],
+16 silly audit   'to-regex-range': [ '5.0.1' ],
+16 silly audit   'ts-interface-checker': [ '0.1.13' ],
+16 silly audit   tslib: [ '2.8.1' ],
+16 silly audit   typescript: [ '5.9.3' ],
+16 silly audit   'undici-types': [ '6.21.0' ],
+16 silly audit   'update-browserslist-db': [ '1.3.3' ],
+16 silly audit   'use-sync-external-store': [ '1.7.0' ],
+16 silly audit   'util-deprecate': [ '1.0.2' ],
+16 silly audit   uuid: [ '11.1.1' ],
+16 silly audit   yallist: [ '4.0.0' ],
+16 silly audit   zustand: [ '4.5.7' ]
+16 silly audit }
+17 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/advisories/bulk failed, reason: 
+17 verbose audit error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+17 verbose audit error     at ClientRequest.emit (node:events:507:28)
+17 verbose audit error     at emitErrorEvent (node:_http_client:104:11)
+17 verbose audit error     at _destroy (node:_http_client:898:9)
+17 verbose audit error     at onSocketNT (node:_http_client:918:5)
+17 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+17 verbose audit error   code: 'EACCES',
+17 verbose audit error   errno: 'EACCES',
+17 verbose audit error   type: 'system'
+17 verbose audit error }
+18 silly audit error undefined
+19 silly audit report null
+20 verbose cwd C:\Users\HP\Downloads\lifequest-main\lifequest-main
+21 verbose os Windows_NT 10.0.26200
+22 verbose node v24.4.1
+23 verbose npm  v11.4.2
+24 verbose exit 0
+25 info ok

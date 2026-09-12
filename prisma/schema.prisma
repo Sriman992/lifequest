@@ -1,0 +1,60 @@
+// Life RPG (cozy lo-fi study room theme) — database schema
+// Dev default: SQLite (zero-config, file-based).
+// Production: swap `provider` to "postgresql" and DATABASE_URL to a real
+// Postgres connection string (e.g. Supabase or Neon) — see README.
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id             String   @id @default(cuid())
+  name           String
+  email          String   @unique
+  passwordHash   String
+  level          Int      @default(1)
+  xp             Int      @default(0) // total lifetime XP, level is derived from this
+  embers         Int      @default(0) // currency, spent in the Nook (shop)
+  attributeXp    String   @default("{}") // JSON map: { FOCUS: 0, VITALITY: 0, ... }
+  currentStreak  Int      @default(0)
+  longestStreak  Int      @default(0)
+  lastActiveDate DateTime? // last calendar day (UTC midnight) a task was completed
+
+  tasks     Task[]
+  inventory InventoryItem[]
+
+  createdAt DateTime @default(now())
+}
+
+model Task {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title       String
+  notes       String?
+  attribute   String // FOCUS | VITALITY | DISCIPLINE | CREATIVITY | CALM
+  difficulty  String // EASY | MEDIUM | HARD
+  status      String    @default("ACTIVE") // ACTIVE | DONE
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([userId, status])
+}
+
+model InventoryItem {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  itemKey      String // references the static shop catalog in src/lib/shop.ts
+  equipped     Boolean  @default(true)
+  purchasedAt  DateTime @default(now())
+
+  @@unique([userId, itemKey])
+}
